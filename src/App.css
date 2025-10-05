@@ -1,0 +1,19 @@
+/* Light Mode Styles */
+.light-mode {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.light-mode body {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Ensure text colors work in light mode */
+.light-mode .text-gray-300 {
+  color: #4b5563;
+}
+
+.light-mode .text-white {
+  color: #1f2937;
+}
